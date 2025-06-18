@@ -38,8 +38,8 @@ const registerController = async (req, res, next) => {
 
         // create expire time for otp....24hr
         const expireAt = Date.now() + 24 * 60 * 60 * 1000;
-        // console.log(expireAt, "expire")
 
+        
         // Define an array of background colors for avatar
         const backgroundColors = [
             "e57f7f",
